@@ -1,0 +1,22 @@
+// app global css in SCSS form
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100dvw;
+  height: 100dvh;
+  background: rgb(240, 232, 187);
+  background: linear-gradient(
+    0deg,
+    rgba(240, 232, 187, 1) 35%,
+    rgba(205, 236, 249, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: unset;
+  transition: background 500ms ease-in-out;
+}
